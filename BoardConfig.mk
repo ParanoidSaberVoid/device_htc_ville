@@ -34,7 +34,7 @@ TARGET_BOARD_INFO_FILE ?= device/htc/ville/board-info.txt
 TARGET_BOOTLOADER_BOARD_NAME := ville
 
 # Kernel
-TARGET_KERNEL_CONFIG := ville_defconfig
+TARGET_KERNEL_CONFIG := candy5_ville_defconfig
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8-sm/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
